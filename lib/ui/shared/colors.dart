@@ -1,0 +1,21 @@
+import 'package:flutter/cupertino.dart';
+
+const primaryDark = const Color.fromRGBO(29, 31, 34, 1);
+const secondaryDark = const Color.fromRGBO(115, 118, 128, 1);
+const primaryGray = const Color.fromRGBO(163, 165, 173, 1);
+const secondaryGray = const Color.fromRGBO(190, 191, 196, 1);
+const white = const Color.fromRGBO(255, 255, 255, 1);
+const lightGray = const Color.fromRGBO(241, 242, 243, 1);
+const primaryBinShops = const Color(0xFF2ba0d0);
+const primaryRed = const Color.fromRGBO(152, 27, 31, 1);
+const primaryBlue = const Color.fromRGBO(5, 108, 153, 1);
+const secondaryBlue = const Color.fromRGBO(220, 228, 239, 1);
+const cupertinoPickerBorderColor = const Color.fromRGBO(255, 241, 212, 1);
+const mainViewUnSelectedItemColor = const Color(0xFF8D8D8D);
+const oneGray = const Color(0xFF333333);
+const black = const Color(0xFF000000);
+const completedColor = const Color(0xFF15B873);
+const pendingColor = const Color(0xFFB7791D);
+const cancelColor = const Color(0xFFC82424);
+const userManagementIconColor = const Color(0xFF838092);
+const productDetailsSliverAppBarColor = const Color(0xFFF2F2F2);

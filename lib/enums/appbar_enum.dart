@@ -1,0 +1,1 @@
+enum TypeOfAppBar { start, end }
