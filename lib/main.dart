@@ -1,36 +1,24 @@
+import 'package:prestashop_mobile_app/base/provider_setup.dart';
+import 'package:prestashop_mobile_app/base/router.dart' as router;
 import 'package:flutter/material.dart';
+import 'package:prestashop_mobile_app/services/navigation_service.dart';
+import 'package:provider/provider.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  return runApp(MultiProvider(providers: providers, child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(),
+      onGenerateRoute: router.Router.generateRoute,
+      debugShowCheckedModeBanner: true,
+      navigatorKey: Provider.of<NavigationService>(context).navigatorKey,
+      home: MainView(),
     );
   }
 }
 
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return const Center(
-      child: Text(
-        "this project is not suppoded to do anything or build anything, this is just a sample of two screens",
-        textAlign: TextAlign.center,
-        textDirection: TextDirection.rtl,
-      ),
-    );
-  }
-}
