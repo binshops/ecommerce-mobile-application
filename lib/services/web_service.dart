@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:prestashop_mobile_app/models/server_response.dart';
 import 'package:prestashop_mobile_app/services/authentication_service.dart';
+import 'package:prestashop_mobile_app/ui/shared/text.dart';
 
 class WebService {
   AuthenticationService authenticationService;

@@ -1,6 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:prestashop_mobile_app/const_values/route_paths.dart';
+import 'package:prestashop_mobile_app/models/prestashop_category.dart';
 import 'package:prestashop_mobile_app/models/product.dart';
+import 'package:prestashop_mobile_app/ui/views/main_view.dart';
+import 'package:prestashop_mobile_app/ui/views/main_view/screens/cart_screen/cart_screen.dart';
+import 'package:prestashop_mobile_app/ui/views/main_view/screens/search_screen/search_results_screen.dart';
+import 'package:prestashop_mobile_app/ui/views/main_view/screens/search_screen/search_screen.dart';
+import 'package:prestashop_mobile_app/ui/views/product_details_screen/product_details_screen.dart';
+import 'package:prestashop_mobile_app/ui/views/products_list_screen/products_list_screen.dart';
+import 'package:prestashop_mobile_app/ui/widgets/text/TextView.dart';
 
 class Router {
   static Route<dynamic> generateRoute(RouteSettings settings) {

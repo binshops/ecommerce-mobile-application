@@ -2,6 +2,7 @@ import 'package:prestashop_mobile_app/base/provider_setup.dart';
 import 'package:prestashop_mobile_app/base/router.dart' as router;
 import 'package:flutter/material.dart';
 import 'package:prestashop_mobile_app/services/navigation_service.dart';
+import 'package:prestashop_mobile_app/ui/views/main_view.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
