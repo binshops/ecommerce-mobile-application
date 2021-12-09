@@ -1,16 +1,12 @@
-# prestashop_mobile_app
+# PrestaShop Mobile Application
 
-A new Flutter project.
+High performance mobile application developed with Flutter technology. Beside the performance and architecture the unique and special feature is that the mobile app works with [PrestaShop REST API](https://www.binshops.com/prestashop-rest-api) which is totally free.
 
-## Getting Started
+## Pro Version
+To get full version with advanced features visit: [https://www.binshops.com/prestashop-mobile-application](https://www.binshops.com/prestashop-mobile-application).
 
-This project is a starting point for a Flutter application.
+## How To Use
+Before using the application you need to install the [PrestaShop REST API](https://www.binshops.com/prestashop-rest-api) on your PrestaShop website. 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Change Log
+- 1.0 Initial Release

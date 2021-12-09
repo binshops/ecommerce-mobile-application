@@ -5,7 +5,7 @@ description: A sample of prestashop mobile app developed by binshops team.
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-version: 1.1.0+2
+version: 1.0.0+1
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
