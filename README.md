@@ -1,6 +1,6 @@
 # Build Free Native eCommerce Application in Minutes
 Let's see how you can create your app in minutes. The application is based on a popular open source eCommerce platform (PrestaShop).
-## [Create App Now]https://www.binshops.com/free-ecommerce-app
+## [Create App Now](https://www.binshops.com/free-ecommerce-app)
 
 High performance mobile application developed with Flutter technology. Beside the performance and architecture the unique and special feature is that the mobile app works with [PrestaShop REST API](https://www.binshops.com/prestashop-rest-api) which is totally free.
 
